@@ -8,11 +8,16 @@ This is modified from [SplitNN_FSHA](https://github.com/pasquini-dario/SplitNN_F
 This repository contains the code that implements the SplitSpy and Gradients Scrutinizer described in our paper "Focusing on Pinocchio's Nose: A Gradients Scrutinizer to Thwart Split-Learning Hijacking Attacks Using Intrinsic Attributes" published at NDSS 2023. 
 
 ## Requirements
-Our code is implemented and tested on python 3.6 and TensorFlow 
+Our code is implemented and tested on python 3.6 and TensorFlow.
+
 Install all the requirements by:
+
 `pip install requirements.txt`
+
 or install with conda by:
+
 `conda env create -f requirements.yml`
+
 `conda activate GradientsScrutinizer`
 
 ## SplitSpy
@@ -20,8 +25,11 @@ Working on code releasing
 
 ## Gradients Scrutinizer
 The implementation of Gradients Scrutinizer is under the path `\GradientsScrutinizer\`.
+
 The script `example.py` can be used to reproduct our experiments of detecting FSHA training from honest SL training. It can be done by:
+
 `python example.py`
+
 This script includes the training of FSHA client and server models and honest client and server models, and the detction score calculation.
 
 ## Citation
