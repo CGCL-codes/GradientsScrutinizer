@@ -38,7 +38,7 @@ If you are using our code for research purpose, please cite our paper.
 
 ```
 @inproceedings{gradientsscrutinizer_ndss202,
-  author    = {Jiayun Fu, Xiaojing Ma, Bin B. Zhu, Pingyi Hu, Ruixin Zhan, Yaru Jia, Peng Xu, Hai Jin, and Dongmei Zhang},
+  author    = {Jiayun Fu, Xiaojing Ma, Bin B. Zhu, Pingyi Hu, Ruixin Zhao, Yaru Jia, Peng Xu, Hai Jin, and Dongmei Zhang},
   title     = {Focusing on Pinocchio's Nose: A Gradients Scrutinizer to Thwart Split-Learning Hijacking Attacks Using Intrinsic Attributes},
   booktitle = {30th Annual Network and Distributed System Security Symposium, {NDSS}
                2023, San Diego, California, USA, February 27-March 3, 2023},
